@@ -1,0 +1,38 @@
+{
+  "name": "gulp-cirru-html",
+  "version": "0.0.1",
+  "description": "Gulp plugin compiling Cirru-HTML to HTML",
+  "main": "compile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cirru",
+    "html",
+    "gulp"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "dependencies": {
+    "cirru-html": "^0.2.2",
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.8.7",
+    "gulp-reloader": "0.0.1",
+    "gulp-watch": "^0.6.9"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cirru/gulp-cirru-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cirru/gulp-cirru-html/issues"
+  },
+  "homepage": "https://github.com/Cirru/gulp-cirru-html"
+}
