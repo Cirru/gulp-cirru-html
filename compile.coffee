@@ -16,7 +16,6 @@ module.exports = (options) ->
 
   through.obj (file, enc, cb) ->
     opts.filename = file.path
-    opts.data = file.data
 
     file.path = ext file.path, '.html'
 
