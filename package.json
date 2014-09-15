@@ -1,6 +1,6 @@
 {
   "name": "gulp-cirru-html",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gulp plugin compiling Cirru-HTML to HTML",
   "main": "compile.js",
   "scripts": {

@@ -9,7 +9,7 @@ PluginError = require('gulp-util').PluginError
 html.setResolver (basePath, child, scope) ->
   dest = path.join (path.dirname basePath), child
   scope?['@filename'] = dest
-  html = fs.readFileSync dest, 'utf8'
+  fs.readFileSync dest, 'utf8'
 
 module.exports = (options) ->
   opts = options or {}
@@ -24,6 +24,7 @@ module.exports = (options) ->
     else if file.isBuffer()
       try
         content = String(file.contents)
+        opts.data['@filename'] = opts.filename
         result = html.render content, opts.data
         file.contents = new Buffer result
         cb null, file

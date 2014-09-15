@@ -24,4 +24,6 @@ gulp.task 'watch', ->
   .pipe reloader('demo')
 ```
 
-### license MIT
+### license
+
+MIT
