@@ -29,4 +29,4 @@ module.exports = (options) ->
         file.contents = new Buffer result
         cb null, file
       catch err
-        cb new PluginError('gulp-jade', err)
+        cb new PluginError('gulp-cirru-html', err)
